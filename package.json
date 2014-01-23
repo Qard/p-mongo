@@ -1,6 +1,6 @@
 {
   "name": "p-mongo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "description": "Chainable wrapper over the native mongodb driver, with promise support",
   "author": "Stephen Belanger <admin@stephenbelanger.com>",
