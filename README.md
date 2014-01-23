@@ -1,15 +1,15 @@
-# qongo
-[![Build Status](https://travis-ci.org/Qard/promised-express.png)](https://travis-ci.org/Qard/promised-express)
+# p-mongo
+[![Build Status](https://travis-ci.org/Qard/p-mongo.png)](https://travis-ci.org/Qard/p-mongo)
 
-Qongo is a promise wrapper around the node-mongodb-native module, but going a step further to make the API chainable.
+p-mongo is a promise wrapper around the node-mongodb-native module, but going a step further to make the API chainable.
 
 ## Install
 
-    npm install qongo
+    npm install p-mongo
 
 ## Usage
     
-    var db = qongo.db('mydb', '127.0.0.1', 27017)
+    var db = pmongo.db('mydb', '127.0.0.1', 27017)
     var Users = db.collection('users')
 
     Users.insert({ name: 'test' }).then(function (user) {
