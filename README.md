@@ -1,4 +1,6 @@
 # p-mongo
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Qard/p-mongo.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/Qard/p-mongo.png)](https://travis-ci.org/Qard/p-mongo)
 
 p-mongo is a promise wrapper around the node-mongodb-native module, but going a step further to make the API chainable.
